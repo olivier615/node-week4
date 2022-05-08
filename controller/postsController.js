@@ -27,3 +27,8 @@ exports.createPost = async (req, res) => {
     handelError(res, error)
   }
 }
+
+// exports.deleteAllPosts = async (req, res) => {
+//   await Post.deleteMany({})
+//   handelSuccess(res)
+// }
